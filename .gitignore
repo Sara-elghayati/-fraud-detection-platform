@@ -1,0 +1,30 @@
+# Credentials
+gcp-key.json
+dags/gcp-key.json
+
+# Data files
+data/
+*.csv
+
+# Spark output
+output/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# dbt
+fraud_dbt/target/
+fraud_dbt/dbt_packages/
+fraud_dbt/logs/
+
+# Parquet
+*.parquet
